@@ -13,6 +13,15 @@ body {
   background-color: #0b1218;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: aliceblue;
+}
+
 ul {
   list-style: none; /* sacar los puntos a los "li" que son predeterminados*/
 }
