@@ -31,14 +31,25 @@ a {
   color: aliceblue;
 }
 
+.menu > li {
+  float: left;
+}
 .menu ul {
   display: flex;
   align-items: center; /* centrar todos los elemntos*/
   justify-content: center;
 }
 
-.menu ul li {
+.menu ul > li {
   margin: 0 2rem;
+}
+
+.menu ul li ul li {
+  padding: 7px 0px;
+  margin: 0 !important;
+}
+.menu li a {
+  display: block;
 }
 
 .menu ul li a {
@@ -49,6 +60,19 @@ a {
   color: #258d62;
 }
 
+.menu li ul {
+  display: none;
+  position: absolute;
+  min-width: 140px;
+}
+
+.menu li:hover > ul {
+  display: block;
+}
+
+.menu ul li ul {
+  margin-top: 1rem;
+}
 .boton-registrarse {
   border: 3px solid #258d62;
   border-radius: 40px;

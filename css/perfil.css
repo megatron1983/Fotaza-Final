@@ -1,0 +1,73 @@
+input,
+button {
+  padding: 0.5rem;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.centrar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+input {
+  border: solid 2px #258d62;
+  width: 500px;
+}
+
+button {
+  background-color: #258d62;
+  color: aliceblue;
+}
+
+button:hover {
+  background-color: aliceblue;
+  color: #258d62;
+}
+
+.perfil {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 6rem;
+  width: 50%;
+}
+
+.imagen-perfil {
+  width: 20%;
+}
+
+.imagen-perfil img {
+  width: 100%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.datos-perfil {
+  display: flex;
+  flex-direction: column;
+  width: 51%;
+  padding-left: 2rem;
+  color: aliceblue;
+}
+
+.datos-perfil h1 {
+  margin-bottom: 1.4rem;
+  font-size: 2rem;
+  color: #258d62;
+}
+
+.email {
+  display: flex;
+  flex-direction: row;
+}
+
+.email i {
+  margin-right: 0.7rem;
+}
