@@ -32,7 +32,7 @@ button:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 6rem;
+  margin-top: 2rem;
   width: 50%;
 }
 
@@ -70,4 +70,46 @@ button:hover {
 
 .email i {
   margin-right: 0.7rem;
+}
+
+#galeria {
+  width: 100%;
+  max-width: 960px;
+  margin: 7rem auto;
+  column-count: 3;
+}
+
+#galeria article {
+  margin-bottom: 2rem;
+  height: 100%;
+}
+
+#galeria article img {
+  width: 100%;
+}
+
+#galeria article figcaption {
+  margin-top: 1rem;
+}
+
+.intereses {
+  display: flex;
+  flex-direction: row;
+}
+
+.intereses li {
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+.intereses li a {
+  background-color: cadetblue;
+  color: #0b1218;
+  padding: 0.5rem;
+}
+
+.intereses li a:hover {
+  background-color: #0b1218;
+  color: cadetblue;
+  border: solid 1px cadetblue;
 }
