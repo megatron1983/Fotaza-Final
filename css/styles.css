@@ -56,6 +56,15 @@ a {
   font-size: 1.3rem;
 }
 
+.menu ul li ul li a {
+  background-color: #258d62;
+  padding: 10px 15px;
+}
+
+.menu ul li ul li a:hover {
+  color: #0b1218;
+}
+
 .menu ul li a:hover {
   color: #258d62;
 }
@@ -71,7 +80,7 @@ a {
 }
 
 .menu ul li ul {
-  margin-top: 1rem;
+  padding-top: 1rem;
 }
 .boton-registrarse {
   border: 3px solid #258d62;
@@ -85,10 +94,21 @@ a {
 
 .boton-registrarse:hover {
   background-color: aliceblue;
-  border: 10px solid aliceblue;
   border-radius: 60px;
   -webkit-border-radius: 60px;
   -moz-border-radius: 60px;
   -ms-border-radius: 60px;
   -o-border-radius: 60px;
+}
+
+footer {
+  border-top: #258d62 solid 1px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-top: 6rem;
+}
+
+.text-center {
+  text-align: center;
+  color: aliceblue;
 }
