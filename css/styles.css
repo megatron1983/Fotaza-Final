@@ -7,6 +7,13 @@
 header {
   padding: 2rem 2rem; /*espacio arriba y a los costados*/
   background-color: #0b1218;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+main {
+  margin-top: 12rem;
 }
 
 body {
@@ -31,13 +38,26 @@ a {
   color: aliceblue;
 }
 
+.margin-top {
+  margin-top: 8rem;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.menu a img {
+  width: 100px;
+}
+
 .menu > li {
   float: left;
 }
 .menu ul {
   display: flex;
   align-items: center; /* centrar todos los elemntos*/
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .menu ul > li {

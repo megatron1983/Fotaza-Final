@@ -72,6 +72,10 @@ button:hover {
   margin-right: 0.7rem;
 }
 
+.title {
+  text-align: center;
+}
+
 #galeria {
   width: 100%;
   max-width: 960px;
